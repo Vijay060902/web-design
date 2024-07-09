@@ -1,0 +1,60 @@
+body{
+    background-color: #000;
+    font-family: sans-serif;
+}
+*{
+    margin:0px;
+    padding:0px;
+.relative{
+    width:100%;
+    position:relative;
+}
+}
+.footer{
+    background-color: #818284;
+    width:90%;
+    height:250px;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-right: 60px;
+    display: flex;
+    position:absolute; 
+    bottom:0px;
+    justify-content: space-between;  
+}
+.logo{
+    display: flex;
+}
+
+.ft{
+    margin-left: 10px;  
+    display: flex;  
+}
+.ftp,.secondtext,.thirdtext{
+    font-weight: 300;
+    padding-top: 30px;
+    display: flex;
+    padding-left: 5px;
+
+}
+.ftp{
+    display: flex;
+   
+    margin-left: 10px;
+}
+.flex{
+    display: flex;
+    margin-top: 30px;
+ 
+}
+.fct{
+    margin-left: 10px;
+    font-weight: 300;
+}
+.five{
+    margin-left: 20px;   
+}
+.fl{
+    padding-left:10px;
+    padding-top: 30px;
+}

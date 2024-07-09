@@ -1,0 +1,100 @@
+body{
+    font-family: sans-serif;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+.sidebar{
+    background-color: #818284;
+    width:300px;
+    height:900px;
+
+}
+
+.heading{
+    padding-top:40px;
+    display:flex;
+    justify-content:center;
+    color:#000;
+    font-size:24px;
+    
+}
+
+.profile{
+    justify-content:center;
+    text-align: center;
+    color:#000;
+    margin-top:30px;
+}
+
+.center{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.list{
+    list-style: none;
+    color:#000;
+    margin-top:40px;
+
+}
+.list:hover{
+    border-bottom:1px solid  #000;
+
+}
+
+.text{
+    padding-left: 10px;
+}
+.card{
+    width:200px;
+    height:200px;
+    background: linear-gradient(to right ,#000,#4f3fae);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.menu{
+    display:flex;
+    justify-content: flex-end;
+    padding-top:20px;
+}
+
+.ppp{
+    padding-left:20px;
+}
+
+.teams{
+    color:#fff;
+    padding-left:15px;
+}
+.para{
+    color:#fff;
+    padding-left:15px;
+    font-size:14px;
+
+}
+@media (max-width:610px) {
+.sidebar{
+    width: 150px;
+    background-color: #4f3fae;
+    border-radius:30px;
+
+}
+.designation{
+    font-size: 12px;
+}
+.teams{
+    display:none;
+}
+.card{
+    display:none;
+}
+.text{
+    display:none
+}
+
+    
+}

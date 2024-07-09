@@ -1,0 +1,24 @@
+.flexcontainer{
+   display: flex !important;
+}
+.footer{
+
+   bottom:0px;
+}
+
+.cont{
+   height:700px;
+   width:300px;
+   background-color: aliceblue;
+   border-radius: 10px;
+   border: 1px solid;
+   margin:10px;
+   box-shadow: 10px 10px red;
+
+
+
+}
+
+.contein{
+   display: flex;
+}
